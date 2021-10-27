@@ -1,7 +1,7 @@
 <?php
 if ( isset($_POST["masuk"]) ) {
 	if ($_POST["username"] == "admin" && $_POST["pass"] == "root") {
-	header("Location: index.html");
+	header("Location: https://www.instagram.com/sang_pemimpi29/");
 	exit;
 	} else {
 		//jika salah maka muncul peringatan
