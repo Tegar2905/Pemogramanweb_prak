@@ -1,0 +1,95 @@
+.boxutama{ /* menggunakan "." maka di html menggunakan "class =" */
+	height: 300px;
+	width: 800px;
+	position: absolute;
+	margin-left: -400px; /*sesuaikan sama lebar*/
+	left: 50%;
+}
+
+.tengah {
+	display: grid;
+	grid-template-columns: 20% auto;
+}
+
+.atas h1{
+	font-family: Courier New;
+	font-size: 40px;
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+
+.atas{
+	padding-top: 5px;
+	text-align: center;
+	line-height: 21px;
+	height: 150px;
+	background-image: url(img/back.jpg);
+}
+
+.bawah {
+	clear: both;
+	width: 800px;
+	height: 30px;
+	background-color: red;
+	
+}
+.bawah b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 10px 0 0 15px;
+}
+
+
+#artikel {
+	/*float: right;*/
+	border: 1px solid red;
+	margin-left: 10 px;
+	background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+
+}
+
+#artikel p {
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color: white;
+}
+
+#menukiri {
+	float: left;
+
+}
+#menukiri ul { /* menggunakan "#" maka di html menggunakan "id=" */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#menukiri a {
+	padding: 5px;
+	display: block;
+	background: red;
+	margin: 0px 0px 1px 0px;
+	color: white;
+}
+#menukiri a:hover {
+	background: blue;
+}
+
+#menukiri a:link a:visited a:active {
+	padding: 15px;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(img/batikabu.jpg);
+	background-repeat: repeat-x repeat-y;
+}
